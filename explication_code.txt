@@ -1,0 +1,9 @@
+El proyecto de procesamiento de datos de vacunación hace uso de varios conceptos fundamentales de Python, que permiten organizar y gestionar los datos de manera eficiente.
+
+Se utiliza la clase VacunaData, que encapsula atributos y métodos relacionados con el procesamiento de datos de vacunación. Esto permite crear instancias de la clase que pueden gestionar sus propios datos y comportamientos, promoviendo una mejor organización y reutilización del código.
+
+Se emplean diccionarios para almacenar información clave sobre los datos de vacunación. Por ejemplo, sexo_dict, jurisdicciones_dict y vacunas_dict son diccionarios que guardan la cantidad de registros por sexo, jurisdicción y tipo de vacuna, respectivamente. Esto facilita el acceso y la manipulación de datos, permitiendo contar y categorizar información de manera efectiva.
+
+Las listas son utilizadas para manejar datos en formato de filas, especialmente al procesar el archivo CSV. La función formatter_list convierte cada fila en una lista de valores, lo que permite acceder fácilmente a cada dato correspondiente. Además, las listas son útiles para almacenar múltiples elementos de manera ordenada y acceder a ellos mediante índices.
+
+Se definen varias funciones de validación (por ejemplo, validar_no_vacio, validar_digitos, validar_fecha) que permiten comprobar la integridad de los datos antes de ser procesados. Esto asegura que solo se utilicen registros válidos en el análisis, mejorando la calidad de los resultados.
