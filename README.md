@@ -64,3 +64,103 @@ Se inicializa el menú estadístico y se ejecuta el método run, que inicia la i
 
 **`Para ejecutar el programa`**
 - En la carpeta del proyecto, ejecutar el comando `python .\main.py` para iniciar el menu iterativo del programa.
+
+**RESULTADOS DEL PROCESO**
+- Personas de cada genero que recibieron la vacuna
+
+| Sexo | Cantidad |
+|------|----------|
+| M    | 6320709  |
+| F    | 7296477  |
+
+- Porcentaje de vacunas aplicadas por tipo respecto al total
+
+| Vacunas                   | Porcentaje |
+|---------------------------|------------|
+| Sinopharm                 | 9.84%      |
+| Moderna ARNm 020 mg mL    | 32.64%     |
+| Pfizer                    | 28.94%     |
+| Sputnik                   | 7.13%      |
+| Moderna Bivariante BA 4 5 | 3.97%      |
+| AstraZeneca               | 7.38%      |
+| Pfizer Pediátrica         | 1.52%      |
+| Moderna  010 mg mL        | 2.07%      |
+| Cansino                   | 2.06%      |
+| Pfizer Bivariante BA 4 5  | 4.31%      |
+| Sputnik Light             | 0.08%      |
+| Moderna                   | 0.04%      |
+| COVISHIELD                | 0.01%      |
+| ARVAC                     | 0.006%     |
+
+-Personas vacunas en cada provincia
+
+
+| Provincia              | Dosis |
+|------------------------|-------|
+| Buenos Aires           | 10036569 |
+| La Pampa               | 207457 |
+| Salta                  | 738157 |
+| Santiago del Estero    | 493475 |
+| Córdoba                | 1898146 |
+| Entre Ríos             | 729951 |
+| Río Negro              | 416591 |
+| Tucumán                | 803284 |
+| La Rioja               | 224276 |
+| Formosa                | 371848 |
+| CABA                   | 3048381 |
+| Santa Fe               | 2560692 |
+| Neuquén                | 489114 |
+| Tierra del Fuego       | 92729 |
+| Mendoza                | 1138889 |
+| Jujuy                  | 525385 |
+| San Luis               | 346155 |
+| Chaco                  | 582098 |
+| San Juan               | 333614 |
+| Catamarca              | 321545 |
+| Chubut                 | 300301 |
+| Misiones               | 411631 |
+| Corrientes             | 829051 |
+| Santa Cruz             | 185160 |
+| S.I.                   | 149873 |
+
+
+- Personas con segunda dosis por jurisdicción
+
+| Jurisdicción           | Personas |
+|------------------------|------|
+| Buenos Aires           | 576129 |
+| Salta                  | 65518 |
+| Río Negro              | 20984 |
+| Santiago del Estero     | 29024 |
+| CABA                   | 86778 |
+| Mendoza                | 81263 |
+| Tucumán                | 51885 |
+| La Rioja               | 10533 |
+| Jujuy                  | 40831 |
+| Chaco                  | 57506 |
+| Córdoba                | 89488 |
+| Santa Fe               | 92001 |
+| Entre Ríos             | 51807 |
+| Neuquén                | 40953 |
+| San Juan               | 21757 |
+| Catamarca              | 14403 |
+| La Pampa               | 6204 |
+| Misiones               | 56792 |
+| Formosa                | 18446 |
+| San Luis               | 8392 |
+| Santa Cruz             | 11364 |
+| Corrientes             | 64051 |
+| Chubut                 | 21233 |
+| Tierra del Fuego        | 3629 |
+
+- Cantidad de personas mayores de 60 años que recibieron dosis de refuerzo **1761071**.
+
+
+- **Ejemplo del archivo de salida al ejecutarse el programa**
+
+Registro defectuoso o incompleto en la fila 6:
+
+{'sexo': 'M', 'grupo_etario': '>63', 'jurisdiccion_residencia': 'Santiago del Estero', 'jurisdiccion_residencia_id': '86', 'depto_residencia': 'Loreto', 'depto_residencia_id': '105', 'jurisdiccion_aplicacion': 'Santiago del Estero', 'jurisdiccion_aplicacion_id': '86', 'depto_aplicacion': 'Loreto', 'depto_aplicacion_id': '105', 'fecha_aplicacion': '2021-10-19', 'vacuna': 'Sinopharm', 'cod_dosis_generica': '2', 'nombre_dosis_generica': '1ra', 'condicion_aplicacion': '3 a 11 años SIN Factores de Riesgo', 'orden_dosis': '1', 'lote_vacuna': '202108B2087', 'id_persona_dw': '14125645557.0'} 
+Registro defectuoso o incompleto en la fila 25: 
+ {'sexo': 'F', 'grupo_etario': '12-17', 'jurisdiccion_residencia': 'Buenos Aires', 'jurisdiccion_resid
+
